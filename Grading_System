@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int marks;
+    printf("Enter your Marks:");
+    scanf("%d",&marks); //value in input
+    //if-else ladder
+    if(marks>=85)
+    {
+        printf("GRADE A");
+    }
+    else if (marks<=84 && marks>=70)
+    {
+        printf("GRADE B");
+    }
+    else if (marks<=69 && marks>=55)
+    {
+        printf("GRADE C");
+    }
+    else if (marks>=40 && marks<=54)
+    {
+        printf("GRADE D");
+    }
+    else if (marks<40)
+    {
+        printf("BELOW 40");
+    }
+    return 0;
+}
